@@ -6,7 +6,7 @@
 let role = "guest";
 
 function setRole() {
-  // Your code here
+  
 }
 
 function showGlobalRole() {
