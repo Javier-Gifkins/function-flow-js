@@ -10,8 +10,10 @@ class Student {
 
 function printStudentName() {
   student = new Student("John", 20);
-  console.log(student.name);
+  console.log("Student name is:" + student.name);
   return student.name;
 }
+
+printStudentName();
 
 module.exports = { printStudentName };
