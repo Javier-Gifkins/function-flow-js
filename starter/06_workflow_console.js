@@ -10,7 +10,9 @@ const steps = [
 ];
 
 function animateSteps() {
-  // Your code here
+  setInterval(() => {
+    console.log(steps.shift());
+  }, 1000);
 }
 
 module.exports = { animateSteps };

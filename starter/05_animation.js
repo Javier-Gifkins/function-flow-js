@@ -2,13 +2,12 @@
 // TODO: Use 'console.clear()', 'console.log()', and basic logic with position
 
 function move() {
-  for (let i = 0; i < 100; i++) {
+  let time = 0;
+  setInterval(() => {
     console.clear();
-    console.log(" ".repeat(i) + "🚀");
-    console.log(" ".repeat(100 - i) + "🚀");
-  }
+    console.log(" ".repeat(Math.sin(time / 10) * 30 + 30) + "🚀")
+    time++;
+  }, 100);
 }
-
-move();
 
 module.exports = { move };
