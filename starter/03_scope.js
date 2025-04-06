@@ -6,11 +6,11 @@
 let role = "guest";
 
 function setRole() {
-  
+  // Your code here
 }
 
 function showGlobalRole() {
-  // Your code here
+  console.log("Outside function:", role);
 }
 
 module.exports = { setRole, showGlobalRole, role };

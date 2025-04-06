@@ -2,7 +2,11 @@
 // TODO: Return the sum of all numbers in the array
 
 function totalScores(scores) {
-  // Your code here
+  sum = 0;
+  for (let i = 0; i < scores.length; i++) {
+    sum += scores[i];
+  }
+  return sum;
 }
 
 module.exports = { totalScores };
