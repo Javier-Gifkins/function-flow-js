@@ -14,6 +14,4 @@ function printStudentName() {
   return student.name;
 }
 
-printStudentName();
-
 module.exports = { printStudentName };
