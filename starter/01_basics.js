@@ -9,8 +9,8 @@ class Student {
 }
 
 function printStudentName() {
-  student = new Student("John", 20);
-  console.log("Student name is:" + student.name);
+  student = new Student("Ava", 20);
+  console.log("Student name is:", student.name);
   return student.name;
 }
 
